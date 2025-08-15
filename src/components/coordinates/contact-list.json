@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_coordinates_contact_lists",
+  "info": {
+    "displayName": "contact_list",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "contact_info": {
+      "type": "component",
+      "repeatable": true,
+      "component": "condition-item.condition-item"
+    }
+  }
+}

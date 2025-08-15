@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "card_details",
+  "info": {
+    "singularName": "card-detail",
+    "pluralName": "card-details",
+    "displayName": "CardDetails",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "conditions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "condition-item.conditions"
+    },
+    "cardApplySteps": {
+      "type": "component",
+      "repeatable": true,
+      "component": "condition-item.steps"
+    },
+    "faqs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "faq.content"
+    },
+    "isProductActive": {
+      "type": "boolean"
+    },
+    "product_key": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::product-key.product-key"
+    },
+    "productTitle": {
+      "type": "string"
+    },
+    "banner": {
+      "type": "component",
+      "repeatable": true,
+      "component": "banners.card-details-banner"
+    },
+    "applyProductKey": {
+      "type": "string"
+    }
+  }
+}

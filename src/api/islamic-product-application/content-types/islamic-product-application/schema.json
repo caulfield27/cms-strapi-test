@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "islamic_product_applications",
+  "info": {
+    "singularName": "islamic-product-application",
+    "pluralName": "islamic-product-applications",
+    "displayName": "IslamicProductApplications",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "patronymic": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "inn": {
+      "type": "string"
+    },
+    "product": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "vacancy_infos",
+  "info": {
+    "singularName": "vacancy-info",
+    "pluralName": "vacancy-infos",
+    "displayName": "VacancyInfo",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "humoNumbers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "condition-item.conditions"
+    },
+    "humoInfo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "list.banner"
+    },
+    "banner": {
+      "type": "component",
+      "repeatable": true,
+      "component": "banners.vacancies-header-banner"
+    }
+  }
+}

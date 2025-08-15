@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_vacncies_jobs",
+  "info": {
+    "displayName": "jobs"
+  },
+  "options": {},
+  "attributes": {
+    "direction": {
+      "type": "string"
+    },
+    "vacancies": {
+      "displayName": "vacancies",
+      "type": "component",
+      "repeatable": true,
+      "component": "vacncies.vacancies"
+    }
+  }
+}

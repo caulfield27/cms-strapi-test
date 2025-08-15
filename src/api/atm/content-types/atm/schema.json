@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "atms",
+  "info": {
+    "singularName": "atm",
+    "pluralName": "atms",
+    "displayName": "ATMsList",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "ATMs": {
+      "displayName": "list",
+      "type": "component",
+      "repeatable": true,
+      "component": "at-ms.list"
+    }
+  }
+}

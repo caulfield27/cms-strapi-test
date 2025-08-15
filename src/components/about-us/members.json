@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_about_us_members",
+  "info": {
+    "displayName": "members",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "management",
+        "supervisor"
+      ]
+    },
+    "name": {
+      "type": "string"
+    },
+    "position": {
+      "type": "text"
+    },
+    "carrer": {
+      "displayName": "career",
+      "type": "component",
+      "repeatable": true,
+      "component": "about-us.career"
+    },
+    "photo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

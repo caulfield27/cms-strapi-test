@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_agents_lists",
+  "info": {
+    "displayName": "list",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "workSchedule": {
+      "type": "component",
+      "repeatable": true,
+      "component": "item.work-schedule"
+    },
+    "services": {
+      "type": "component",
+      "repeatable": true,
+      "component": "services.list"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "coordinates": {
+      "type": "component",
+      "repeatable": false,
+      "component": "coordinates.item"
+    }
+  }
+}

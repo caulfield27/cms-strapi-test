@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_cities_citiy_lists",
+  "info": {
+    "displayName": "citiyList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "cityName": {
+      "type": "string"
+    },
+    "cityCode": {
+      "type": "string"
+    }
+  }
+}

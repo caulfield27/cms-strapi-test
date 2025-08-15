@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_about_us_history_contents",
+  "info": {
+    "displayName": "historyContent"
+  },
+  "options": {},
+  "attributes": {
+    "year": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "achivements": {
+      "type": "json"
+    }
+  }
+}

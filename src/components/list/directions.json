@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_list_directions",
+  "info": {
+    "displayName": "directions"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "string"
+    }
+  }
+}

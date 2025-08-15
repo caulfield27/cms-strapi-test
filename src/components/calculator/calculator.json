@@ -1,0 +1,61 @@
+{
+  "collectionName": "components_calculator_calculators",
+  "info": {
+    "displayName": "Calculator",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "limit": {
+      "displayName": "limit",
+      "type": "component",
+      "repeatable": false,
+      "component": "calculator.limit"
+    },
+    "formula": {
+      "type": "text"
+    },
+    "tax": {
+      "type": "decimal"
+    },
+    "percent": {
+      "type": "string"
+    },
+    "optionsType": {
+      "type": "enumeration",
+      "enum": [
+        "currency",
+        "gender",
+        "legalStatus"
+      ]
+    },
+    "conditions": {
+      "displayName": "conditions ",
+      "type": "component",
+      "repeatable": true,
+      "component": "calculator.conditions"
+    },
+    "options": {
+      "type": "component",
+      "repeatable": true,
+      "component": "calculator.options"
+    },
+    "periods": {
+      "type": "component",
+      "repeatable": true,
+      "component": "calculator.periods"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "deposit",
+        "credit"
+      ]
+    },
+    "product_key": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::product-key.product-key"
+    }
+  }
+}

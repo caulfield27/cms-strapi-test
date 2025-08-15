@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_faq_contents",
+  "info": {
+    "displayName": "content",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "chipTitle": {
+      "type": "string"
+    },
+    "faqDocuments": {
+      "type": "component",
+      "repeatable": false,
+      "component": "list.documents"
+    },
+    "accordionContent": {
+      "type": "component",
+      "repeatable": true,
+      "component": "faq.accordion-content"
+    }
+  }
+}

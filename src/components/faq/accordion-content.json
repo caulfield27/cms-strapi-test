@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_faq_accordion_contents",
+  "info": {
+    "displayName": "AccordionContent",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "accordionTitle": {
+      "type": "string"
+    },
+    "accordionContent": {
+      "type": "blocks"
+    }
+  }
+}

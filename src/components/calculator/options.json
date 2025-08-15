@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_calculator_options",
+  "info": {
+    "displayName": "options",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "min": {
+      "type": "integer"
+    },
+    "max": {
+      "type": "integer"
+    },
+    "percentRate": {
+      "type": "decimal"
+    },
+    "value": {
+      "type": "enumeration",
+      "enum": [
+        "Сомони",
+        "Рубль",
+        "Доллар",
+        "Евро",
+        "Для женщин",
+        "Для мужчин",
+        "Для юр.лиц",
+        "Для физ.лиц"
+      ]
+    }
+  }
+}

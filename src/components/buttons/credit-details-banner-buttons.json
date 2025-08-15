@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_buttons_credit_details_banner_buttons",
+  "info": {
+    "displayName": "CreditDetailsBannerButtons"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    },
+    "anchor": {
+      "type": "enumeration",
+      "enum": [
+        "credit-details-conditions",
+        "credit-details-apply-steps",
+        "credit-details-calculator",
+        "products-apply-form",
+        "utk-section"
+      ]
+    }
+  }
+}

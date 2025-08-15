@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_item_formulas",
+  "info": {
+    "displayName": "formula"
+  },
+  "options": {},
+  "attributes": {
+    "credit": {
+      "type": "text"
+    },
+    "deposit": {
+      "type": "text"
+    }
+  }
+}

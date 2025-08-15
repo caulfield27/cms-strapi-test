@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_calculator_periods",
+  "info": {
+    "displayName": "periods",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "key": {
+      "type": "enumeration",
+      "enum": [
+        "general",
+        "Для мужчин",
+        "Для женщин"
+      ]
+    },
+    "periodsContent": {
+      "type": "json"
+    }
+  }
+}

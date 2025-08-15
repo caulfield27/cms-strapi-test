@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_buttons_home_page_banner_buttons",
+  "info": {
+    "displayName": "HomePageBannerButtons"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    },
+    "anchor": {
+      "type": "enumeration",
+      "enum": [
+        "home-page-populaer-products",
+        "home-page-calculator",
+        "home-page-usefull-section",
+        "currency-exchange-section",
+        "current-news-section"
+      ]
+    }
+  }
+}

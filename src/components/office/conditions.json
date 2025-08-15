@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_office_conditions",
+  "info": {
+    "displayName": "conditions"
+  },
+  "options": {},
+  "attributes": {
+    "crediting": {
+      "type": "boolean"
+    },
+    "currencyExchange": {
+      "type": "boolean"
+    },
+    "moneyTransfers": {
+      "type": "boolean"
+    },
+    "bankCards": {
+      "type": "boolean"
+    },
+    "RKO": {
+      "type": "boolean"
+    }
+  }
+}

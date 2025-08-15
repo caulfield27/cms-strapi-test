@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_calculator_islamic_periods",
+  "info": {
+    "displayName": "islamicPeriods"
+  },
+  "options": {},
+  "attributes": {
+    "period": {
+      "type": "string"
+    },
+    "periodPercents": {
+      "displayName": "IslamicPeriodsPercents",
+      "type": "component",
+      "repeatable": true,
+      "component": "calculator.islamic-periods-percents"
+    }
+  }
+}

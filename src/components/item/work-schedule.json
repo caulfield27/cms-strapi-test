@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_item_work_schedules",
+  "info": {
+    "displayName": "workSchedule"
+  },
+  "options": {},
+  "attributes": {
+    "fromDay": {
+      "type": "string"
+    },
+    "toDay": {
+      "type": "string"
+    },
+    "fromTime": {
+      "type": "string"
+    },
+    "toTime": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_about_us_rating_agency_grades",
+  "info": {
+    "displayName": "ratingAgencyGrades",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "agencyName": {
+      "type": "string"
+    },
+    "gradeCategory": {
+      "type": "string"
+    },
+    "gradeCategoryDetails": {
+      "type": "text"
+    },
+    "agencyGrade": {
+      "type": "string"
+    }
+  }
+}

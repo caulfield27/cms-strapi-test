@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_buttons_islamic_service_detail_btns",
+  "info": {
+    "displayName": "IslamicServiceDetailBtn",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "anchor": {
+      "type": "enumeration",
+      "enum": [
+        "credit-apply-details",
+        "muzarraba",
+        "products-apply-form",
+        "utk-section"
+      ]
+    },
+    "label": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    }
+  }
+}

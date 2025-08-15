@@ -1,0 +1,54 @@
+{
+  "kind": "singleType",
+  "collectionName": "islamic_windows",
+  "info": {
+    "singularName": "islamic-window",
+    "pluralName": "islamic-windows",
+    "displayName": "IslamicWindow",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "charity_title": {
+      "type": "string"
+    },
+    "islamic_contact_title": {
+      "type": "string"
+    },
+    "service_list": {
+      "type": "component",
+      "repeatable": false,
+      "component": "items.service-list"
+    },
+    "charity_info": {
+      "displayName": "charity_info",
+      "type": "component",
+      "repeatable": false,
+      "component": "services.charity-info"
+    },
+    "chariah_commitet": {
+      "type": "component",
+      "repeatable": false,
+      "component": "services.chariah-commitet"
+    },
+    "contact_list": {
+      "displayName": "contact_list",
+      "type": "component",
+      "repeatable": true,
+      "component": "coordinates.contact-list"
+    },
+    "calculator": {
+      "type": "component",
+      "repeatable": false,
+      "component": "calculator.islamic-calculator"
+    },
+    "banner": {
+      "type": "component",
+      "repeatable": true,
+      "component": "banners.islamic-header-banners"
+    }
+  }
+}

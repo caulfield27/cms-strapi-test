@@ -1,0 +1,61 @@
+{
+  "kind": "collectionType",
+  "collectionName": "islamic_service_details",
+  "info": {
+    "singularName": "islamic-service-detail",
+    "pluralName": "islamic-service-details",
+    "displayName": "islamicServiceDetail",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "stepperTitle": {
+      "type": "string"
+    },
+    "muzarabaTable": {
+      "displayName": "muzarabaTable",
+      "type": "component",
+      "repeatable": false,
+      "component": "calculator.muzaraba-table"
+    },
+    "condition": {
+      "type": "component",
+      "repeatable": true,
+      "component": "condition-item.conditions"
+    },
+    "stepper": {
+      "type": "component",
+      "repeatable": true,
+      "component": "condition-item.steps"
+    },
+    "faqs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "faq.content"
+    },
+    "product_key": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::product-key.product-key"
+    },
+    "isProductActive": {
+      "type": "boolean"
+    },
+    "calculator": {
+      "type": "component",
+      "repeatable": false,
+      "component": "calculator.islamic-calculator"
+    },
+    "title": {
+      "type": "string"
+    },
+    "banner": {
+      "type": "component",
+      "repeatable": true,
+      "component": "banners.islamic-header-banners"
+    }
+  }
+}

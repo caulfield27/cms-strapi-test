@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_calculator_products",
+  "info": {
+    "displayName": "product",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "credit": {
+      "type": "component",
+      "repeatable": false,
+      "component": "products.credit-id"
+    },
+    "deposit": {
+      "type": "component",
+      "repeatable": false,
+      "component": "products.deposit-id"
+    }
+  }
+}

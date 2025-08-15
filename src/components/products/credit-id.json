@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_products_credit_ids",
+  "info": {
+    "displayName": "credit_id",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "credit_id": {
+      "type": "enumeration",
+      "enum": [
+        "ipoteka",
+        "agro",
+        "salomati",
+        "start-business",
+        "tahsil",
+        "business",
+        "orzu",
+        "potrebitelsky",
+        "murabahaForConsumption",
+        "murabahaForBusiness",
+        "murabahaForAuto",
+        "muzaraba",
+        "business-agro"
+      ]
+    }
+  }
+}

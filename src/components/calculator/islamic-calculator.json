@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_calculator_islamic_calculators",
+  "info": {
+    "displayName": "islamicCalculator",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "limit": {
+      "type": "component",
+      "repeatable": false,
+      "component": "calculator.limit"
+    },
+    "formula": {
+      "type": "text"
+    },
+    "periods": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::islamic-calculator-period.islamic-calculator-period"
+    },
+    "product_key": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::product-key.product-key"
+    }
+  }
+}

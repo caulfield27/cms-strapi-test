@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_faq_table_items",
+  "info": {
+    "displayName": "tableItem"
+  },
+  "options": {},
+  "attributes": {
+    "period": {
+      "type": "string"
+    },
+    "windowIncome": {
+      "type": "string"
+    },
+    "investorIncome": {
+      "type": "string"
+    }
+  }
+}

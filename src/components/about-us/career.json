@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_about_us_careers",
+  "info": {
+    "displayName": "career"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

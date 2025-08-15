@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_condition_item_conditions",
+  "info": {
+    "displayName": "conditions"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

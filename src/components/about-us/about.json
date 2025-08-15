@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_about_us_abouts",
+  "info": {
+    "displayName": "about",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "humoNumbers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "condition-item.conditions"
+    },
+    "ratingAgencyGrades": {
+      "displayName": "ratingAgencyGrades",
+      "type": "component",
+      "repeatable": true,
+      "component": "about-us.rating-agency-grades"
+    },
+    "key": {
+      "type": "enumeration",
+      "enum": [
+        "about",
+        "members",
+        "documents",
+        "contacts"
+      ]
+    }
+  }
+}

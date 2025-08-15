@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "currency_exchanges",
+  "info": {
+    "singularName": "currency-exchange",
+    "pluralName": "currency-exchanges",
+    "displayName": "CurrencyExchange",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "currency": {
+      "type": "component",
+      "repeatable": true,
+      "component": "currency-exchange.currency"
+    }
+  }
+}

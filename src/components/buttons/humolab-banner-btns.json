@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_buttons_humolab_banner_btns",
+  "info": {
+    "displayName": "HumolabBannerBtns"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    },
+    "anchor": {
+      "type": "enumeration",
+      "enum": [
+        "about-academy",
+        "course-requirements",
+        "academy-courses",
+        "study-process",
+        "selection-stages",
+        "academy-reviews",
+        "academy-news",
+        "academy-faq",
+        "academy-contact-us"
+      ]
+    }
+  }
+}

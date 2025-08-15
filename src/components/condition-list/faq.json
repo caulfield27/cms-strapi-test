@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_condition_list_faqs",
+  "info": {
+    "displayName": "faq",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "json"
+    }
+  }
+}

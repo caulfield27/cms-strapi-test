@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_condition_list_condition_lists",
+  "info": {
+    "displayName": "ConditionList",
+    "icon": "grid"
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "condition-item.condition-item"
+    }
+  }
+}

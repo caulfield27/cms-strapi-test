@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_buttons_about_us_banner_buttons",
+  "info": {
+    "displayName": "AboutUsBannerButtons"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    },
+    "anchor": {
+      "type": "enumeration",
+      "enum": [
+        "about-us-finisher-banner",
+        "about-us-history",
+        "about-us-tabs"
+      ]
+    }
+  }
+}

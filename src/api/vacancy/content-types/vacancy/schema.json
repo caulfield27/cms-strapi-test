@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "vacancies",
+  "info": {
+    "singularName": "vacancy",
+    "pluralName": "vacancies",
+    "displayName": "Vacancies",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "jobTitle": {
+      "type": "string"
+    },
+    "jobCity": {
+      "type": "string"
+    },
+    "vacanciesDetails": {
+      "displayName": "item",
+      "type": "component",
+      "repeatable": false,
+      "component": "vacancies-details.item"
+    },
+    "jobDirection": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::job-direction.job-direction"
+    }
+  }
+}

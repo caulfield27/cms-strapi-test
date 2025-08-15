@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_banners_vacancies_header_banners",
+  "info": {
+    "displayName": "VacanciesHeaderBanner"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "background": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "primaryBtn": {
+      "type": "component",
+      "repeatable": false,
+      "component": "buttons.vacancy-banner-buttons"
+    },
+    "secondaryBtn": {
+      "type": "component",
+      "repeatable": false,
+      "component": "buttons.vacancy-banner-buttons"
+    }
+  }
+}

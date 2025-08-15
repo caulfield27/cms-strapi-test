@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_about_us_boards",
+  "info": {
+    "displayName": "board"
+  },
+  "options": {},
+  "attributes": {
+    "members": {
+      "displayName": "members",
+      "type": "component",
+      "repeatable": true,
+      "component": "about-us.members"
+    }
+  }
+}

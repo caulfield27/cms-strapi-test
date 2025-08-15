@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_condition_item_steps",
+  "info": {
+    "displayName": "steps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "stepId": {
+      "type": "string"
+    }
+  }
+}

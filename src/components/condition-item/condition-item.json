@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_condition_item_condition_items",
+  "info": {
+    "displayName": "ConditionItem",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

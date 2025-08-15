@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_list_credit_checkboxes",
+  "info": {
+    "displayName": "creditCheckbox"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "rates": {
+      "type": "component",
+      "repeatable": true,
+      "component": "list.rates"
+    },
+    "limit": {
+      "type": "component",
+      "repeatable": false,
+      "component": "item.limit"
+    },
+    "conditions": {
+      "type": "component",
+      "repeatable": false,
+      "component": "item.calculator-conditions"
+    }
+  }
+}

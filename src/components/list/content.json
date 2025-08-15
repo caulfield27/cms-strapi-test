@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_list_contents",
+  "info": {
+    "displayName": "content"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    }
+  }
+}

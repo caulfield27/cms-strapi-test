@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_about_us_docs_contents",
+  "info": {
+    "displayName": "docsContent"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "pdf": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_merchants_lists",
+  "info": {
+    "displayName": "list",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "category": {
+      "type": "string"
+    },
+    "workSchedule": {
+      "type": "component",
+      "repeatable": false,
+      "component": "item.work-schedule"
+    },
+    "juridicalName": {
+      "type": "string"
+    },
+    "INN": {
+      "type": "string"
+    },
+    "coordinates": {
+      "type": "component",
+      "repeatable": false,
+      "component": "coordinates.item"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_faq_docs",
+  "info": {
+    "displayName": "docs",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "documents": {
+      "type": "component",
+      "repeatable": true,
+      "component": "faq.documents"
+    },
+    "accordionTitle": {
+      "type": "string"
+    },
+    "faqs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::faq.faq"
+    }
+  }
+}

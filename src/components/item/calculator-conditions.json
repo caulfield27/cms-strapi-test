@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_item_calculator_conditions",
+  "info": {
+    "displayName": "calculatorConditions"
+  },
+  "options": {},
+  "attributes": {
+    "accept": {
+      "type": "string"
+    },
+    "reject": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_islamic_projects_conditions",
+  "info": {
+    "displayName": "condition",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "component",
+      "repeatable": true,
+      "component": "islamic-projects.description"
+    }
+  }
+}

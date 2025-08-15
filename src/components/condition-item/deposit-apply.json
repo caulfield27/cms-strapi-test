@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_condition_item_deposit_applies",
+  "info": {
+    "displayName": "depositApply"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "steps": {
+      "displayName": "steps",
+      "type": "component",
+      "repeatable": true,
+      "component": "condition-item.steps"
+    }
+  }
+}

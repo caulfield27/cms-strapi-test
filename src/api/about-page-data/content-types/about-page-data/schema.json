@@ -1,0 +1,46 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_page_database",
+  "info": {
+    "singularName": "about-page-data",
+    "pluralName": "about-page-database",
+    "displayName": "About-page-data",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "about": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about-us.about"
+    },
+    "boardComposition": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about-us.board"
+    },
+    "contatcs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about-us.contacts"
+    },
+    "history": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about-us.history-content"
+    },
+    "documents": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about-us.docs"
+    },
+    "banner": {
+      "type": "component",
+      "repeatable": true,
+      "component": "banners.about-us-header-banner"
+    }
+  }
+}

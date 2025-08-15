@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_calculator_conditions_s",
+  "info": {
+    "displayName": "conditions "
+  },
+  "options": {},
+  "attributes": {
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "accept",
+        "reject"
+      ]
+    },
+    "label": {
+      "type": "string"
+    }
+  }
+}

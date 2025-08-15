@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_vacancies_details_items",
+  "info": {
+    "displayName": "item"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "expierence": {
+      "displayName": "item",
+      "type": "component",
+      "repeatable": false,
+      "component": "expierence.item"
+    },
+    "desc": {
+      "type": "text"
+    },
+    "tasks": {
+      "displayName": "list",
+      "type": "component",
+      "repeatable": true,
+      "component": "items.list"
+    },
+    "expectations": {
+      "type": "component",
+      "repeatable": true,
+      "component": "items.list"
+    },
+    "weOffer": {
+      "type": "component",
+      "repeatable": true,
+      "component": "items.list"
+    }
+  }
+}

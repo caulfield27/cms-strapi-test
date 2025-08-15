@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_faq_accordion_items",
+  "info": {
+    "displayName": "accordionItem",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "accordionTitle": {
+      "type": "string"
+    },
+    "accordionContent": {
+      "type": "component",
+      "repeatable": true,
+      "component": "services.list"
+    }
+  }
+}

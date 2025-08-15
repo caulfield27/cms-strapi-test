@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "singularName": "project",
+    "pluralName": "projects",
+    "displayName": "projects",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "scopes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "islamic-projects.condition"
+    },
+    "conditionsTitle": {
+      "type": "string"
+    },
+    "conditionList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "islamic-projects.condition"
+    },
+    "key": {
+      "type": "string"
+    },
+    "descriptions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "islamic-projects.description"
+    }
+  }
+}

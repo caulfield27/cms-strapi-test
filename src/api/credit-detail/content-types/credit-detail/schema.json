@@ -1,0 +1,55 @@
+{
+  "kind": "collectionType",
+  "collectionName": "credit_details",
+  "info": {
+    "singularName": "credit-detail",
+    "pluralName": "credit-details",
+    "displayName": "CreditDetails",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "conditions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "condition-item.conditions"
+    },
+    "creditApplySteps": {
+      "type": "component",
+      "repeatable": true,
+      "component": "condition-item.steps"
+    },
+    "calculator": {
+      "type": "component",
+      "repeatable": false,
+      "component": "calculator.calculator"
+    },
+    "faqs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "faq.content"
+    },
+    "isProductActive": {
+      "type": "boolean"
+    },
+    "product_key": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::product-key.product-key"
+    },
+    "banner": {
+      "type": "component",
+      "repeatable": true,
+      "component": "banners.credit-details-header-banner"
+    },
+    "productTitle": {
+      "type": "string"
+    },
+    "applyProductKey": {
+      "type": "string"
+    }
+  }
+}

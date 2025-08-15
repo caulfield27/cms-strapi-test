@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_items_service_lists",
+  "info": {
+    "displayName": "service_list",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "service_list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "products.service-item"
+    }
+  }
+}

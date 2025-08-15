@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_list_rates",
+  "info": {
+    "displayName": "rates"
+  },
+  "options": {},
+  "attributes": {
+    "time": {
+      "type": "string"
+    },
+    "ratePercent": {
+      "type": "integer"
+    },
+    "timeType": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_calculator_muzaraba_tables",
+  "info": {
+    "displayName": "muzarabaTable",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "tableTitle": {
+      "type": "string"
+    },
+    "tableHead": {
+      "type": "component",
+      "repeatable": false,
+      "component": "faq.table-item"
+    },
+    "tableBody": {
+      "type": "component",
+      "repeatable": true,
+      "component": "faq.table-item"
+    }
+  }
+}

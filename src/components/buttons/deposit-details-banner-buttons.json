@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_buttons_deposit_details_banner_buttons",
+  "info": {
+    "displayName": "DepositDetailsBannerButtons"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    },
+    "anchor": {
+      "type": "enumeration",
+      "enum": [
+        "deposit-details-conditions",
+        "deposit-details-apply-steps",
+        "deposit-calculator-section",
+        "products-apply-form",
+        "utk-section"
+      ]
+    }
+  }
+}

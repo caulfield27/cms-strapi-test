@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_services_charity_infos",
+  "info": {
+    "displayName": "charity_info",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "info": {
+      "type": "component",
+      "repeatable": true,
+      "component": "services.list"
+    }
+  }
+}

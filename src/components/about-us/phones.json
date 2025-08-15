@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_about_us_phones_s",
+  "info": {
+    "displayName": "phones "
+  },
+  "options": {},
+  "attributes": {
+    "phone": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

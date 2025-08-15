@@ -1,0 +1,55 @@
+{
+  "kind": "collectionType",
+  "collectionName": "deposit_details",
+  "info": {
+    "singularName": "deposit-detail",
+    "pluralName": "deposit-details",
+    "displayName": "DepositDetails",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "conditions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "condition-item.conditions"
+    },
+    "depositApplySteps": {
+      "type": "component",
+      "repeatable": true,
+      "component": "condition-item.steps"
+    },
+    "calculator": {
+      "type": "component",
+      "repeatable": false,
+      "component": "calculator.calculator"
+    },
+    "faqs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "faq.content"
+    },
+    "isProductActive": {
+      "type": "boolean"
+    },
+    "product_key": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::product-key.product-key"
+    },
+    "productTitle": {
+      "type": "string"
+    },
+    "banner": {
+      "type": "component",
+      "repeatable": true,
+      "component": "banners.deposit-details-banner"
+    },
+    "applyProductKey": {
+      "type": "string"
+    }
+  }
+}

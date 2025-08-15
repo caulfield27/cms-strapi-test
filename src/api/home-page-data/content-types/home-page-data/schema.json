@@ -1,0 +1,46 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_page_datas",
+  "info": {
+    "singularName": "home-page-data",
+    "pluralName": "home-page-datas",
+    "displayName": "HomePageData",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "popularProducts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "condition-item.popular-products"
+    },
+    "usefullSection": {
+      "displayName": "list",
+      "type": "component",
+      "repeatable": true,
+      "component": "usefull-section.list"
+    },
+    "calculator": {
+      "type": "component",
+      "repeatable": true,
+      "component": "calculator.calculator"
+    },
+    "banners": {
+      "type": "component",
+      "repeatable": true,
+      "component": "banners.home-page-header-banner"
+    },
+    "single_banner": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::get-single-banner.get-single-banner"
+    }
+  }
+}

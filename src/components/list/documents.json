@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_list_documents",
+  "info": {
+    "displayName": "documents",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "accordionTitle": {
+      "type": "string"
+    },
+    "documentContents": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::document.document"
+    }
+  }
+}

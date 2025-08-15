@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_buttons_vacancy_banner_buttons",
+  "info": {
+    "displayName": "VacancyBannerButtons"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    },
+    "anchor": {
+      "type": "enumeration",
+      "enum": [
+        "vacancy-list",
+        "job-numbers",
+        "vacancies-why-humo-section",
+        "vacancy-apply"
+      ]
+    }
+  }
+}

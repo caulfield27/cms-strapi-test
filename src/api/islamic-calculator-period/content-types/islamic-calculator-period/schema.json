@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "islamic_calculator_periods",
+  "info": {
+    "singularName": "islamic-calculator-period",
+    "pluralName": "islamic-calculator-periods",
+    "displayName": "islamicCalculatorPeriods",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "islamicCalculatorPeriods": {
+      "displayName": "islamicPeriods",
+      "type": "component",
+      "repeatable": true,
+      "component": "calculator.islamic-periods"
+    }
+  }
+}

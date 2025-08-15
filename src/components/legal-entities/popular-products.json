@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_legal_entities_popular_products",
+  "info": {
+    "displayName": "popularProducts"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "redirect": {
+      "type": "string"
+    }
+  }
+}

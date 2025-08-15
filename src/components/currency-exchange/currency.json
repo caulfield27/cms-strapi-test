@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_currency_exchange_currencies",
+  "info": {
+    "displayName": "currency",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Переводы",
+        "НБТ"
+      ]
+    },
+    "currencyRates": {
+      "displayName": "currencyRates",
+      "type": "component",
+      "repeatable": true,
+      "component": "currency-exchange.currency-rates"
+    }
+  }
+}

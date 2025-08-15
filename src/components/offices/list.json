@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_offices_lists",
+  "info": {
+    "displayName": "list",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "coordinates": {
+      "displayName": "item",
+      "type": "component",
+      "repeatable": true,
+      "component": "coordinates.item"
+    },
+    "workSchedule": {
+      "displayName": "workSchedule",
+      "type": "component",
+      "repeatable": false,
+      "component": "item.work-schedule"
+    },
+    "conditions": {
+      "displayName": "conditions",
+      "type": "component",
+      "repeatable": false,
+      "component": "office.conditions"
+    },
+    "services": {
+      "type": "component",
+      "repeatable": true,
+      "component": "services.list"
+    }
+  }
+}

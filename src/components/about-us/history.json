@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_about_us_histories",
+  "info": {
+    "displayName": "History"
+  },
+  "options": {},
+  "attributes": {
+    "history": {
+      "displayName": "historyContent",
+      "type": "component",
+      "repeatable": true,
+      "component": "about-us.history-content"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_banners_islamic_banners",
+  "info": {
+    "displayName": "islamicBanner"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "primaryBtn": {
+      "type": "component",
+      "repeatable": false,
+      "component": "banners.banner-btn"
+    },
+    "secondaryBtn": {
+      "type": "component",
+      "repeatable": false,
+      "component": "banners.banner-btn"
+    },
+    "background": {
+      "type": "string"
+    }
+  }
+}

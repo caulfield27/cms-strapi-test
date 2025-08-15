@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_item_limits",
+  "info": {
+    "displayName": "limit"
+  },
+  "options": {},
+  "attributes": {
+    "min": {
+      "type": "integer"
+    },
+    "max": {
+      "type": "integer"
+    }
+  }
+}

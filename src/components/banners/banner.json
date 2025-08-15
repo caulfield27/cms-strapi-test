@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_banners_banners",
+  "info": {
+    "displayName": "HumolabHeaderBanner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "background": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "primaryBtn": {
+      "type": "component",
+      "repeatable": false,
+      "component": "buttons.humolab-banner-btns"
+    },
+    "secondaryBtn": {
+      "type": "component",
+      "repeatable": false,
+      "component": "buttons.humolab-banner-btns"
+    }
+  }
+}

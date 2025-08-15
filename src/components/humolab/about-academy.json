@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_humolab_about_academies",
+  "info": {
+    "displayName": "aboutAcademy"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

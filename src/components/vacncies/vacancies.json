@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_vacncies_vacancies",
+  "info": {
+    "displayName": "vacancies"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

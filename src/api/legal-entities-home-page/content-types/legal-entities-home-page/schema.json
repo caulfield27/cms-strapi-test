@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "legal_entities_home_pages",
+  "info": {
+    "singularName": "legal-entities-home-page",
+    "pluralName": "legal-entities-home-pages",
+    "displayName": "LegalEntitiesHomePage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "calculators": {
+      "type": "component",
+      "repeatable": true,
+      "component": "calculator.calculator"
+    },
+    "banner": {
+      "type": "component",
+      "repeatable": true,
+      "component": "banners.legal-entities-header-banner"
+    },
+    "productsForBusiness": {
+      "displayName": "popularProducts",
+      "type": "component",
+      "repeatable": true,
+      "component": "legal-entities.popular-products"
+    },
+    "single_banner": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::get-single-banner.get-single-banner"
+    }
+  }
+}

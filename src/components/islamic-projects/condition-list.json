@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_islamic_projects_condition_lists",
+  "info": {
+    "displayName": "conditionList"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_at_ms_lists",
+  "info": {
+    "displayName": "list"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "coordinates": {
+      "type": "component",
+      "repeatable": true,
+      "component": "coordinates.item"
+    },
+    "condition": {
+      "type": "text"
+    }
+  }
+}

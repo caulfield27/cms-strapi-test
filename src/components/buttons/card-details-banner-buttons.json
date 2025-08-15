@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_buttons_card_details_banner_buttons",
+  "info": {
+    "displayName": "CardDetailsBannerButtons"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    },
+    "anchor": {
+      "type": "enumeration",
+      "enum": [
+        "card-details-conditions",
+        "card-details-apply-steps",
+        "products-apply-form",
+        "utk-section"
+      ]
+    }
+  }
+}

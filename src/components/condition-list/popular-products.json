@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_condition_list_popular_products",
+  "info": {
+    "displayName": "PopularProducts"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

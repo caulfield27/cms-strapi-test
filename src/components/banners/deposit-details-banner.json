@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_banners_deposit_details_banners",
+  "info": {
+    "displayName": "DepositDetailsBanner"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "background": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "primaryBtn": {
+      "type": "component",
+      "repeatable": false,
+      "component": "buttons.deposit-details-banner-buttons"
+    },
+    "secondaryBtn": {
+      "type": "component",
+      "repeatable": false,
+      "component": "buttons.deposit-details-banner-buttons"
+    }
+  }
+}

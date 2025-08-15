@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_condition_list_deposit_applies",
+  "info": {
+    "displayName": "depositApply"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

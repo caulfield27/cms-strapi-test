@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "job_directions",
+  "info": {
+    "singularName": "job-direction",
+    "pluralName": "job-directions",
+    "displayName": "jobDirections"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "direction": {
+      "type": "string"
+    }
+  }
+}
